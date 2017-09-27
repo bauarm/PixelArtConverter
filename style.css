@@ -1,0 +1,56 @@
+#obr{
+  position:absolute;
+  z-index:-4
+  
+}
+
+
+.canobol{
+	display:inline-block;
+}
+
+#myCanvas{
+ margin-top:20px;
+ margin-left:20px;
+}
+
+
+
+
+#canvas{
+  
+  margin-top:20px;
+  margin-left:20px;
+  
+}
+#canvas_vrap{
+  position:absolute;
+  width:100%;
+  height:100%;
+  background-color:white;
+  z-index:4;
+}
+
+#tools {
+	margin-top:5px;
+	margin-bottom:5px;
+	margin-left:40px;
+	text-align: left;
+	color:#802828;
+	
+	}
+#tools div{
+	text-align:center;
+	display: inline-block;
+	width: 50px;
+    height: 22px;
+	background-color: RGBA(0, 0, 0, 0.6);
+	cursor: pointer;
+	border: 1px yellow solid;
+	}
+#tools div:hover{
+	background-color: RGBA(0, 0, 0, 0.9);
+	}
+#tools div:active{
+	background-color: RGBA(255, 0, 0, 0.4);
+	}
