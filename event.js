@@ -12,6 +12,6 @@ sell.oninput = function() {
   stw=wdh/w,sth=hgt/h;
   //arr.splice(0,avr.length);
   arrloop();
-  
+  arrparser();
   
   };

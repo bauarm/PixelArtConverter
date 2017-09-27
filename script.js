@@ -11,21 +11,21 @@
 	
 	var avr=[],avg=[],avb=[];
     var stcell=Number(document.getElementById('sell').value);
-	var x=0,y=0,w=32,h=32;
+	var x=0,y=0,w=stcell,h=stcell;
     var wdh=c.width,hgt=c.height;
     var stw=wdh/w,sth=hgt/h;
    arrloop();
    
     function arrloop(){
-   
+    var tx=x-stcell,ty=y-stcell;
 	for(q=0;q<stw;q++){
         arr[q]=[];
-        y=0;
-		x=x+h;
+        ty=0;
+		tx=tx+h;
        for(j=0;j<sth;j++){
            
-           arr[q][j]=gathColor(x,y,w,h);//gathColor(x,y,w,h);
-            y=y+h;
+           arr[q][j]=gathColor(tx,ty,w,h);//gathColor(x,y,w,h);
+            ty=ty+h;
         
         }
     
